@@ -1,0 +1,197 @@
+<!DOCTYPE HTML5>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/cakeworld_favicon_16x15.png" type="image/x-icon" />
+    <title>CakeWorld</title>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header">
+                <div class="logo">
+                    <img src="./img/cakeworld_logo_250x53.png" />
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="">Início</a>
+                        </li>
+                        <li>
+                            <a href="">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="">Bolos</a>
+                        </li>
+                        <li>
+                            <a href="">Receitas</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Contato</a>
+                        </li>
+
+                        <div class="busca" style="margin-left: 50px;">
+                            <input placeholder="bolo de cenoura..." type="text" />
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <div id="container-video">
+        <video autoplay [muted]="'muted'" loop id="video1">
+            <source src="./video/bolo(morango).mp4" type="video/mp4">
+            <p>Seu navegador não suporta o elemento de video HTML5.</p>
+        </video>
+        <div class="texto-video">
+            <h1>CakeWorld</h1>
+        </div>
+    </div>
+    <div class="col-100">
+        <div class="content texto-destaque">
+            <h1>Conheça alguns de nossos produtos:</h1>
+        </div>
+        <div class="content content-produtos">
+            <div class="produto">
+                <img class="img-produtos" src="./img/bolo(chocolate-branco).jpg" id="choco-branco" />
+                <p class="texto-produto">Bolo de chocolate branco e preto</p>
+                <button class="botao-comprar">Comprar</button>
+            </div>
+            <div class="produto">
+                <img class="img-produtos" src="./img/bolo(limao).jpg" id="limao" />
+                <p class="texto-produto">Bolo de limão</p>
+                <button class="botao-comprar">Comprar</button>
+            </div>
+            <div class="produto">
+                <img class="img-produtos" src="./img/bolo(pote).jpg" id="pote" />
+                <p class="texto-produto">Bolo de chocolate no pote</p>
+                <button class="botao-comprar">Comprar</button>
+            </div>
+            <div class="produto">
+                <img class="img-produtos" src="./img/bolo(pedaco-chocolate).jpg" id="choco" />
+                <p class="texto-produto">Bolo de chocolate</p>
+                <button class="botao-comprar">Comprar</button>
+            </div>
+        </div>
+    </div>
+    <div class="delivery">
+        <div class="col-100">
+            <div class="content texto-destaque">
+                <h1>Entregamos por:</h1>
+            </div>
+        </div>
+        <div class="col-100 bloco-logos">
+            <div class="content">
+                <div class="col-4">
+                    <img alt="Ifood" title="Ifood" src="./img/IFood_logo.png" />
+                </div>
+                <div class="col-4">
+                    <img alt="UberEats" title="UberEats" src="./img/uber-eats-logo.png" />
+                </div>
+                <div class="col-4">
+                    <img alt="Rappi" title="Rappi" src="./img/rappi-logo.png" />
+                </div>
+                <div class="col-4">
+                    <img alt="Amazon" title="Amazon" src="./img/Amazon_logo.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="delivery-celular">
+        <div class="col-100">
+            <div class="content texto-destaque">
+                <h1>Entregamos por:</h1>
+            </div>
+        </div>
+        <div class="col-100 bloco-logos">
+            <div class="content">
+                <div class="col-4">
+                    <p>iFood</p>
+                </div>
+                <div class="col-4">
+                    <p>UberEats</p>
+                </div>
+                <div class="col-4">
+                    <p>Rappi</p>
+                </div>
+                <div class="col-4">
+                    <p>Amazon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="col-100 footer">
+            <div class="content" style="margin-left: 20px;">
+                <div class="col-4">
+                    <h3><b>UNIDADES</b></h3>
+                    <p class="local">Parque Res. Laranjeiras, R. Isaac Newton - nº 32 </p>
+                    <p class="clock">Aberto de 07:00 às 20:00
+                    <p>
+                    <p class="local">Porto Canoa, Av. Brasília - nº 290</p>
+                    <p class="clock">Aberto de 10:00 às 23:00
+                    <p>
+                </div>
+                <div class="col-4">
+                    <h3><b>SUPORTE</b></h3>
+                    <p class="emailico">cakeworld@email.com
+                    <p>
+                    <p class="telefoneico">900-09720-45597
+                    <p>
+                    <p class="telefoneico">200-08020-60597
+                    <p>
+                </div>
+                <div class="col-4">
+                    <h3><b>SOBRE A CAKEWORLD</b></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Nunc sed id semper risus in hendrerit gravida. Cursus vitae
+                        congue mauris rhoncus aenean vel. In tellus integer feugiat scelerisque varius morbi enim.
+                        Neque
+                        egestas congue quisque egestas. Libero justo laoreet sit amet cursus sit amet dictum sit.
+                        Fermentum iaculis eu non diam phasellus vest.</p>
+                </div>
+                <div class="col-4">
+                    <div class="redes-sociais">
+                        <a class="redes-sociais-icons" href="">
+                            <img src="./img/rss.png" />
+                        </a>
+                        <a class="redes-sociais-icons" href="">
+                            <img src="./img/face.png" />
+                        </a>
+                        <a class="redes-sociais-icons" href="">
+                            <img src="./img/tw.png" />
+                        </a>
+                        <a class="redes-sociais-icons" href="">
+                            <img src="./img/linkedin.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="col-100 footer-2">
+        <div class="content">
+            <p>
+                Todos os direitos reservados © 2022 / Projeto de estudo: Luã Leal Cruz - Análise e Desenvolvimento
+                de Sistemas - Multivix
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+
+</html>

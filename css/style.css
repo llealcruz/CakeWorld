@@ -1,0 +1,366 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.header {
+    display: flex;
+    align-items: stretch;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: lightsalmon;
+    height: 60px;
+}
+
+.logo {
+    height: 60px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    width: auto;
+}
+
+.menu {
+    width: 86%;
+    height: 60px;
+    justify-content: right;
+    display: flex;
+    align-items: stretch;
+    right: 0;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.busca {
+    text-align: center;
+    width: 40%;
+    display: contents;
+    justify-content: right;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+    font-size: 18px;
+}
+
+#container-video {
+    position: relative;
+    width: 99vw;
+}
+
+#video1 {
+    max-width: 100%;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    margin: 0;
+}
+
+.bloco-imagem b,
+p {
+    text-align: left;
+}
+
+h3 {
+    font-weight: normal !important;
+}
+
+.texto-produto {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.botao-comprar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid lightsalmon;
+    height: 70px;
+    width: 200px;
+    align-self: center;
+}
+
+.texto-video {
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    line-height: 30px;
+    height: 200px;
+    font-size: 50px;
+}
+
+.redes-sociais {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociais-icons {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.botao-comprar:hover {
+    background-color: lightsalmon;
+    color: white;
+}
+
+.produto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: space-between;
+}
+
+.content-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background-color: rgba(255, 160, 122, 0.308);
+}
+
+.img-produtos {
+    border-style: double;
+    border-color: rgb(221, 108, 64);
+    margin: 5px;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.col-4 img:hover {
+    margin-top: 10px !important;
+    position: relative !important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.clock {
+    color: #898989 !important;
+}
+
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before,
+.emailico:before,
+.telefoneico:before {
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before {
+    background-image: url('../img/local.png');
+}
+
+.emailico:before {
+    background-image: url('../img/email.png');
+}
+
+.telefoneico:before {
+    background-image: url('../img/telefoneico.png');
+}
+
+.delivery-celular {
+    display: none;
+}
+
+/* responsividade para Ipad e alguns celulares */
+@media only screen and (max-width: 1279px) {
+
+    .redes-sociais {
+        display: none;
+    }
+
+    .content-produtos {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto-produto {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: auto;
+    }
+
+    .produto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        align-content: center;
+        width: 40vh;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        font-size: 1.1vh;
+        text-transform: uppercase;
+        color: black;
+    }
+
+    .menu {
+        width: 98%;
+        height: 60px;
+        justify-content: right;
+        display: flex;
+        align-items: stretch;
+        right: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .texto-destaque h1 {
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 0;
+    }
+
+    .delivery {
+        display: none;
+    }
+
+    .delivery-celular {
+        display: contents;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco-logos {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .texto-video {
+        font-size: 30px;
+    }
+
+    .busca input {
+        display: none;
+    }
+}
